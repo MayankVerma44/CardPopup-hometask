@@ -174,10 +174,9 @@ const PaymentApp = () => {
         features: {
           customerEmailRequired: true,
         },
-        onSuccess(...args) {
+        onSuccess() {
           setPaymentComplete(true);
           setPaymentStatus('success');
-          console.log('Payment successful. Callback arguments:', args);
         },
         onError(error) {
           setPaymentComplete(true);
