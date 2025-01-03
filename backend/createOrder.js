@@ -9,7 +9,7 @@ const API_KEY = 'sk_Tg7ivAtnBKkzgVpJtumFmBLYooKpJnrS3fnOcYGJfQ3Is6E_ZuyTy5VboazG
 
 // Enable CORS for all origins
 app.use(cors({
-    origin: 'http://localhost:3000', 
+    origin: ['http://localhost:3000', 'https://card-popup-hometask.vercel.app'], 
     methods: ['GET', 'POST', 'OPTIONS'], 
     allowedHeaders: ['Content-Type', 'Authorization', 'Accept'], // Allowing these headers in requests to process requests
 }));
