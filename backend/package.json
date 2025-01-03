@@ -1,0 +1,14 @@
+{
+  "name": "cardpayment-implementation-backend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "scripts": {
+    "start": "node createOrder.js"
+  }
+}
